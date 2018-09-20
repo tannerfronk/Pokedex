@@ -25,7 +25,7 @@ ul a {
   list-style-type: none;
   color: black;
   padding: 1rem 10rem;
-  background-color: rgba(0,0,0,0.2)
+  
 }
 @media (min-height: 455px){
 #welcome-section{
@@ -56,6 +56,7 @@ h2 a {
 
 a:hover {
   color: #49274A;
+    background-color: rgba(0,0,0,0.2)
 }
 
 .project-tile {
