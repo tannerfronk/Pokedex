@@ -30,7 +30,7 @@ ul a {
 @media (min-height: 455px){
 #welcome-section{
     height: 55vh;
-    padding-top: 45vH;
+    padding-top: 45vh;
     font-size: 2rem;
     display: flex;
     justify-content: center;
