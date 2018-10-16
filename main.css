@@ -18,6 +18,7 @@ nav ul {
   justify-content: space-around;
   text-decoration-color: none;
   list-style-type: none;
+    padding-top: 1rem;
  }
 
 ul a {
@@ -29,8 +30,8 @@ ul a {
 }
 @media (min-height: 455px){
 #welcome-section{
-    height: 55vh;
-    padding-top: 45vh;
+    height: 100vh;
+    padding-top: 50vh;
     font-size: 2rem;
     display: flex;
     justify-content: center;
