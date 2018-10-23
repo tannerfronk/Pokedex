@@ -76,3 +76,14 @@ a:hover {
 #luke {
     padding-top: 2rem;
 }
+
+.aboutMe {
+    background-color: #F8EEE7;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+h1 {
+    padding-top: 1rem;
+}
+}
