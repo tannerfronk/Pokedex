@@ -20,4 +20,4 @@ films.forEach((film) => {
     listItem.textContent = film.title
     cardList.appendChild(listItem)
     console.log(film.title)
-})
+}) //end of star wars API code
