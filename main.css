@@ -96,3 +96,52 @@ h1 {
 #aboutMe {
     padding-top: 30vH;
 }
+
+/* --------- POKEDEX ------------ */
+
+#centerp {
+    display: flex;
+    flex-direction: column;
+}
+
+#pokedex {
+    background-color: #007991;
+    height: 100vH;
+    display: flex;
+    flex-direction: column;
+}
+
+#pokeContent {
+    padding-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#pokedex h1 {
+    display: flex;
+    justify-content: center;
+}
+
+
+figure {
+    border: thin #c0c0c0 solid;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 220px;
+    margin: auto;
+}
+
+img {
+    max-width: 220px;
+    max-height: 150px;
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
