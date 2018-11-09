@@ -19,6 +19,7 @@ nav ul {
   text-decoration-color: none;
   list-style-type: none;
     padding-top: 1rem;
+    flex-basis: 33.333%;
  }
 
 ul a {
@@ -106,7 +107,6 @@ h1 {
 
 #pokedex {
     background-color: #007991;
-    height: 100vH;
     display: flex;
     flex-direction: column;
 }
@@ -116,6 +116,7 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
+    justify-content: center;
 }
 
 #pokedex h1 {
@@ -130,7 +131,7 @@ figure {
     flex-flow: column;
     padding: 5px;
     max-width: 220px;
-    margin: auto;
+    box-shadow: 5px 5px 5px #666;
 }
 
 img {

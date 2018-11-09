@@ -34,7 +34,7 @@ let count = 1
 
 pokemon.forEach(element => {
     let numPrefix = count < 10 ? '00' : '0'
-    let imgName = `${numPrefix}${count++}${element.name}.png`
+    let imgName = `${numPrefix}${count++}${element.ename}.png`
     let fig = document.createElement('figure')
     let cap = document.createElement('figcaption')
     let img = document.createElement('img')
