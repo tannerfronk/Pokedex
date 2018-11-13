@@ -99,16 +99,8 @@ h1 {
 }
 
 /* --------- POKEDEX ------------ */
-
-#centerp {
-    display: flex;
-    flex-direction: column;
-}
-
 #pokedex {
     background-color: #007991;
-    display: flex;
-    flex-direction: column;
 }
 
 #pokeContent {
@@ -127,11 +119,10 @@ h1 {
 
 figure {
     border: thin #c0c0c0 solid;
-    display: flex;
-    flex-flow: column;
+    margin-right: 10px !important;
     padding: 5px;
     max-width: 220px;
-    box-shadow: 5px 5px 5px #666;
+    box-shadow: 5px 5px 5px #333;
 }
 
 img {
@@ -146,3 +137,5 @@ figcaption {
     padding: 3px;
     text-align: center;
 }
+
+/* Card Flip CSS */

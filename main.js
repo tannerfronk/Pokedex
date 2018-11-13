@@ -44,4 +44,23 @@ pokemon.forEach(element => {
     fig.appendChild(cap)
     pokeContainer.appendChild(fig)
 })
-               
+
+let newC = {
+    "base": {
+            "Attack": 49, 
+            "Defense": 49, 
+            "HP": 45, 
+            "Sp.Atk": 65, 
+            "Sp.Def": 65, 
+            "Speed": 45
+        }, 
+        "cname": "\u5999\u86d9\u79cd\u5b50", 
+        "ename": "Bulbasaur", 
+}
+
+let button = document.querySelector('#newCard')
+button.addEventListener('click', () => {
+    console.log("Thanks for Clicking")
+})
+
+/* Card Flip */
