@@ -117,5 +117,11 @@ button.addEventListener('click', () => {
     pokeContainer.appendChild(card)
 })
 
+let buttonDis = document.querySelector('#newCard')
+    buttonDis.addEventListener( 'click', function() {
+        buttonDis.classList.toggle('is-clicked');
+});
+
+
 pokemon.push.apply(rand)
 console.log(rand)
