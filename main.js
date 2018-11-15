@@ -117,4 +117,5 @@ button.addEventListener('click', () => {
     pokeContainer.appendChild(card)
 })
 
-
+pokemon.push.apply(pokemon, rand)
+console.log(rand)
