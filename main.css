@@ -140,6 +140,7 @@ figcaption {
 #newCard {
     margin-top: 1rem;
     margin-bottom: 3rem;
+    margin-left: 10%;
 }
 
 /* Card Flip CSS */
