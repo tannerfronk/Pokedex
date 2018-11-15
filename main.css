@@ -119,7 +119,6 @@ h1 {
 
 figure {
     border: thin #c0c0c0 solid;
-    margin-right: 10px !important;
     padding: 5px;
     max-width: 220px;
     box-shadow: 5px 5px 5px #333;
@@ -138,4 +137,39 @@ figcaption {
     text-align: center;
 }
 
+#newCard {
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
 /* Card Flip CSS */
+
+.card {
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  margin-right: .5rem;
+  margin-bottom: .5rem;
+}
+.card.is-flipped {
+  transform: rotateY(180deg);
+}
+.card__face {
+  backface-visibility: hidden;
+}
+.card__face--back {
+  transform: rotateY(180deg);
+  margin-top: -12rem;
+  max-height: 176px;
+    background-image: url(img/pokeball.jpg);
+    background-repeat: no-repeat;
+    box-shadow: 5px 5px 5px #333;
+}
+.card__face--back p {
+    margin-left: 1rem;
+    margin-right: 1rem;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(245,255,250,.4)
+}
