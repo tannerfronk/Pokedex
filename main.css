@@ -109,7 +109,7 @@ h1 {
     flex-wrap: wrap;
     align-content: space-between;
     justify-content: center;
-    padding-bottom: 2rem;
+    padding-bottom: 2rem; 
 }
 
 #pokedex h1 {
