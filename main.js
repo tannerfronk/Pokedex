@@ -1,3 +1,4 @@
+//SWAPI PULL FUNCTION STARTS HERE
 let charName = document.querySelector("#charName")
 
 fetch('https://swapi.co/api/people/1')
@@ -20,9 +21,10 @@ films.forEach((film) => {
     listItem.textContent = film.title
     cardList.appendChild(listItem)
     console.log(film.title)
-}) //end of star wars API code
+}) 
+//end of star wars API code
 
-// Pokemon Data
+// Pokemon Data Starts Here
 
 import { pokemon } from "./assets/pokemon.js"
 import { pokemonRan } from "./assets/pokeRandom.js"
@@ -82,21 +84,7 @@ pokemon.forEach(poke => {
     });
 })
 
-/* let count = 1
-
-
-pokemon.forEach(element => {
-    let numPrefix = count < 10 ? '00' : '0'
-    let imgName = `${numPrefix}${count++}${element.ename}.png`
-    let fig = document.createElement('figure')
-    let cap = document.createElement('figcaption')
-    let img = document.createElement('img')
-    img.src = `img/${imgName}`
-    cap.textContent = element.ename
-    fig.appendChild(img)
-    fig.appendChild(cap)
-    pokeContainer.appendChild(fig)
-}) */
+// Add new random Pokemon functions below
 
 let rand = pokemonRan[Math.floor(Math.random() * pokemonRan.length)];
 
@@ -125,3 +113,4 @@ let buttonDis = document.querySelector('#newCard')
 
 pokemon.push.apply(rand)
 console.log(rand)
+// Pokemon Data ends

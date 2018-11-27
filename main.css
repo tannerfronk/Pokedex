@@ -19,14 +19,15 @@ nav ul {
   text-decoration-color: none;
   list-style-type: none;
     padding-top: 1rem;
-    flex-basis: 33.333%;
+    flex-basis: 25%;
+    flex-wrap: nowrap;
  }
 
 ul a {
   text-decoration: none;
   list-style-type: none;
   color: black;
-  padding: 1rem 10rem;
+  padding: 1rem;
   
 }
 @media (min-height: 455px){
@@ -56,10 +57,11 @@ h2 a {
   color: #F4D35E;
 }
 
-a:hover {
-  color: #49274A;
+nav ul li a:hover {
+  color: #BCD8C1;
     background-color: rgba(0,0,0,0.2);
     list-style-type: none;
+    text-decoration: none;
 }
 
 .Projects-section {
@@ -178,4 +180,10 @@ figcaption {
 
 .is-clicked {
     display: none;
+}
+
+button {
+    background-color: #F4D35E;
+    color: black;
+    border: 4px solid #439A86;
 }
