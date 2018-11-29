@@ -88,7 +88,7 @@ pokemon.forEach(poke => {
 
 let rand = pokemonRan[Math.floor(Math.random() * pokemonRan.length)];
 
-let newC = rand;
+const newC = rand;
 
 console.log(newC)
 
