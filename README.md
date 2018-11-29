@@ -1,3 +1,3 @@
 # Portfolio
 
-This is the code taken from CodePen.
+Portfolio for DGM1600.
