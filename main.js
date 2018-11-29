@@ -110,6 +110,19 @@ let buttonDis = document.querySelector('#newCard')
         buttonDis.classList.toggle('is-clicked');
 });
 
+// adding constructor
+class BrandNewPokemon {
+    constructor(ename, id, base) {
+        this.ename = ename
+        this.id = id
+        this.base = base
+    }
+}
+
+let brandNew = new BrandNewPokemon(rand)
+
+
+console.log(brandNew)
 
 pokemon.push.apply(rand)
 console.log(rand)
