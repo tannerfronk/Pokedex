@@ -120,7 +120,7 @@ class BrandNewPokemon {
 }
 
 let brandNew = new BrandNewPokemon(rand)
-
+ 
 
 console.log(brandNew)
 
