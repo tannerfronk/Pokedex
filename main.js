@@ -111,19 +111,37 @@ let buttonDis = document.querySelector('#newCard')
 });
 
 // adding constructor
+
+let rand2= pokemonRan[Math.floor(Math.random() * pokemonRan.length)]
+
 class BrandNewPokemon {
     constructor(ename, id, base) {
-        this.ename = ename
-        this.id = id
-        this.base = base
+        this.ename = rand2.ename
+        this.id = rand2.id
+        this.base = rand2.base
     }
 }
 
-let brandNew = new BrandNewPokemon(rand)
- 
+let brandNew = new BrandNewPokemon
+
+    
+let secondButton = document.querySelector('#construct')
+secondButton.addEventListener('click', () => {
+    let brandNew = document.createElement('div')
+    brandNew.className = "card"
+    brandNew.appendChild(frontFig(rand2))
+    brandNew.appendChild(infoDiv(rand2))
+    brandNew.addEventListener( 'click', function() {
+        brandNew.classList.toggle('is-flipped');
+    });
+    pokeContainer.appendChild(brandNew)
+})
+
+let buttonDis2 = document.querySelector('#construct')
+    buttonDis2.addEventListener( 'click', function() {
+        buttonDis2.classList.toggle('is-clicked');
+});
 
 console.log(brandNew)
 
-pokemon.push.apply(rand)
-console.log(rand)
 // Pokemon Data ends

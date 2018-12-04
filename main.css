@@ -140,11 +140,12 @@ figcaption {
     text-align: center;
 }
 
-#newCard {
-    margin-top: 1rem;
-    margin-bottom: 3rem;
+#newCard, #construct {
     margin-left: 30%;
+    margin-bottom: .5rem;
 }
+
+
 
 /* Card Flip CSS */
 
@@ -187,3 +188,4 @@ button {
     color: black;
     border: 4px solid #439A86;
 }
+
