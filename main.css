@@ -140,8 +140,14 @@ figcaption {
     text-align: center;
 }
 
+#buttons {
+    margin: auto 0;
+    display: flex;
+    width: 100%;
+}
+
 #newCard, #construct {
-    margin-left: 23.5%;
+    flex-basis: 50%;
     margin-bottom: .5rem;
 }
 
