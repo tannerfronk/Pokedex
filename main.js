@@ -112,7 +112,7 @@ let buttonDis = document.querySelector('#newCard')
 
 // adding constructor
 
-let rand2= pokemonRan[Math.floor(Math.random() * pokemonRan.length)]
+let rand2 = pokemonRan[Math.floor(Math.random() * pokemonRan.length)]
 
 class BrandNewPokemon {
     constructor(ename, id, base) {
