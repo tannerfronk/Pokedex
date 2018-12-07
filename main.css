@@ -143,14 +143,19 @@ figcaption {
 #buttons {
     margin: auto 0;
     display: flex;
-    width: 100%;
+    margin: 0 21%;
+    
 }
 
 #newCard, #construct {
     flex-basis: 50%;
     margin-bottom: .5rem;
+    width: 400px;
 }
 
+#newCard {
+    margin-right: 2%;
+}
 
 
 /* Card Flip CSS */
