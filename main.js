@@ -110,7 +110,7 @@ let buttonDis = document.querySelector('#newCard')
         buttonDis.classList.toggle('is-clicked');
 });
 
-// adding constructor
+// adding constructor button
 
 let rand2 = pokemonRan[Math.floor(Math.random() * pokemonRan.length)]
 
