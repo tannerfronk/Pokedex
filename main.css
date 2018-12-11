@@ -169,6 +169,7 @@ figcaption {
 } 
 .card.is-flipped {
   transform: rotateY(180deg);
+    
 }
 .card__face {
   backface-visibility: hidden;
@@ -180,6 +181,9 @@ figcaption {
     background-image: url(img/pokeball.jpg);
     background-repeat: no-repeat;
     box-shadow: 5px 5px 5px #333;
+}
+.card__face--front {
+    backface-visibility: hidden;
 }
 .card__face--back p {
     margin-left: 1rem;
