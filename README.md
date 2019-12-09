@@ -1,3 +1,3 @@
-# Portfolio
+# Pokedex
 
-Portfolio for DGM1600.
+Pokedex for DGM1600.
